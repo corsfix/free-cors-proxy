@@ -1,9 +1,9 @@
 {
   "name": "oss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "scripts": {
-  },
+  "main": "origins.js",
+  "scripts": {},
   "keywords": [],
   "author": "corsfix.com",
   "license": "ISC"

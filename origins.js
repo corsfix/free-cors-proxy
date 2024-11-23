@@ -1,4 +1,4 @@
-export const registeredOrigins: Record<string, Set<string>> = {
+export const registeredOrigins = {
   "https://corsfix.com": new Set(["cloudflare.com"]),
   "https://r34.app": new Set([
     "rule34.xxx",
