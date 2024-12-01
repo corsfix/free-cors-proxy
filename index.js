@@ -1,5 +1,10 @@
 export const registeredOrigins = {
-  "https://corsfix.com": new Set(["cloudflare.com"]),
+  "https://backtrackhq.web.app": new Set([
+    "youtube.com",
+    "ytimg.com",
+    "duckduckgo.com",
+    "googlevideo.com",
+  ]),
   "https://r34.app": new Set([
     "rule34.xxx",
     "gelbooru.com",
