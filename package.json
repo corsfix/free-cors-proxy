@@ -1,9 +1,10 @@
 {
   "name": "oss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
+  "type": "module",
   "scripts": {},
   "keywords": [],
   "author": "corsfix.com",
