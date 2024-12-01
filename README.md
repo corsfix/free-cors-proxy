@@ -11,4 +11,5 @@ The `index.js` file maintains a mapping of sponsored websites and their allowed 
 To add your website to the sponsorship program:
 
 1. Fork this repository
-2. Add your website and required domains to `index.js` following the existing format:
+2. Add your website and required domains to `index.js` following the existing format
+3. Create a pull request. Once approved, your website will be added to the proxy allowlist.
