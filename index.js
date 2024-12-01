@@ -1,4 +1,4 @@
-export const registeredOrigins = {
+module.exports.registeredOrigins = {
   "https://backtrackhq.web.app": new Set([
     "youtube.com",
     "ytimg.com",
