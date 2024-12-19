@@ -1,15 +1,19 @@
 # Corsfix Open Source Sponsorship
 
-This repository contains a list of websites that are sponsored through [corsfix.com](https://corsfix.com), providing CORS proxy services for various domains.
+## What Is Corsfix?
+[Corsfix](https://corsfix.com) is the CORS Proxy that lets you access any web resource without CORS errors, so you can focus on building great websites.
 
-## How It Works
+## What You Get from Sponsorship?
+As a sponsored project, you get:
+- Unlimited monthly requests
+- 60 requests per minute
+- Production use for your website
 
-The `index.js` file maintains a mapping of sponsored websites and their allowed CORS domains. Each entry consists of a website and an array of domains that they're permitted to access through the CORS proxy.
-
-## Adding Your Website
-
+## How to Add Your Project
 To add your website to the sponsorship program:
-
 1. Fork this repository
 2. Add your website and required domains to `index.js` following the existing format
 3. Create a pull request. Once approved, your website will be added to the proxy allowlist.
+
+## Learn More About Corsfix
+Visit [corsfix.com](https://corsfix.com) to explore its features and see how it helps you fix CORS errors.
