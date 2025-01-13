@@ -24,4 +24,5 @@ module.exports.registeredOrigins = {
     "booru.allthefallen.moe",
     "sakugabooru.com",
   ]),
+  "https://periscope.corsfix.com": new Set(["*"]),
 };
