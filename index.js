@@ -25,4 +25,5 @@ module.exports.registeredOrigins = {
     "sakugabooru.com",
   ]),
   "https://periscope.corsfix.com": new Set(["*"]),
+  "https://restfox1.pages.dev": new Set(["*"]),
 };
