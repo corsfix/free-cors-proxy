@@ -7,4 +7,5 @@ module.exports.registeredOrigins = {
   ]),
   "https://periscope.corsfix.com": new Set(["*"]),
   "https://restfox1.pages.dev": new Set(["*"]),
+  "https://html5test.co": new Set(["html5test.eu5.net"]),
 };
