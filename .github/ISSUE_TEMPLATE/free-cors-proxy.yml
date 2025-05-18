@@ -32,7 +32,7 @@ body:
       label: Target domains
       description: The domains do you want to fetch, enter multiple lines for multiple
         domains or use asterisk (*) to fetch any domains
-      validations:
+    validations:
       required: true
   - type: textarea
     id: textarea-3
