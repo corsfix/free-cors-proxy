@@ -16,6 +16,7 @@ body:
       label: Website URL
       description: The project's website you want to get CORS proxy for
       placeholder: https://mywebsite.com
+    validations:
       required: true
   - type: input
     id: input-1
@@ -23,6 +24,7 @@ body:
       label: Repository URL
       description: The project repository URL
       placeholder: https://github.com/username/project
+    validations:
       required: true
   - type: textarea
     id: textarea-2
@@ -30,6 +32,7 @@ body:
       label: Target domains
       description: The domains do you want to fetch, enter multiple lines for multiple
         domains or use asterisk (*) to fetch any domains
+      validations:
       required: true
   - type: textarea
     id: textarea-3
