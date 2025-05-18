@@ -1,15 +1,17 @@
 name: Free CORS proxy for open source project
 title: Add "<your-project-name>"
-description: |-
-  Thank you for choosing Corsfix!
-
-  Fill in the details and get access to our CORS proxy for your project.
-
-  Once added, you will get:
-  - Unlimited requests
-  - 60 RPM throughput
-  - Access to proxy in your website
+description: Add your project to use Corsfix CORS proxy for free
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for choosing Corsfix!
+
+        Fill in the details and get access to our CORS proxy for your project.
+
+        Once added, you will get:
+        - Unlimited requests
+        - 60 RPM throughput
   - type: input
     id: input-0
     attributes:
@@ -30,7 +32,8 @@ body:
     id: textarea-2
     attributes:
       label: Target domains
-      description: The domains do you want to fetch, enter multiple lines for multiple
+      description:
+        The domains do you want to fetch, enter multiple lines for multiple
         domains or use asterisk (*) to fetch any domains
     validations:
       required: true
