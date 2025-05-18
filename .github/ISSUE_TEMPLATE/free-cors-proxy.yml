@@ -10,13 +10,14 @@ body:
         Fill in the details and get access to our CORS proxy for your project.
 
         Once added, you will get:
+        - Access to the proxy
         - Unlimited requests
         - 60 RPM throughput
   - type: input
     id: input-0
     attributes:
       label: Website URL
-      description: The project's website you want to get CORS proxy for
+      description: Your project website URL accesing the CORS proxy
       placeholder: https://mywebsite.com
     validations:
       required: true
@@ -33,12 +34,12 @@ body:
     attributes:
       label: Target domains
       description:
-        The domains do you want to fetch, enter multiple lines for multiple
-        domains or use asterisk (*) to fetch any domains
+        The domains you want to fetch, enter multiple lines for multiple
+        domains or use asterisk (*) to allow any domains
     validations:
       required: true
   - type: textarea
     id: textarea-3
     attributes:
       label: Notes
-      description: Any other info you want to include
+      description: Any other information you want to include
