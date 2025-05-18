@@ -1,0 +1,38 @@
+name: Free CORS proxy for open source project
+title: Add "<your-project-name>"
+description: |-
+  Thank you for choosing Corsfix!
+
+  Fill in the details and get access to our CORS proxy for your project.
+
+  Once added, you will get:
+  - Unlimited requests
+  - 60 RPM throughput
+  - Access to proxy in your website
+body:
+  - type: input
+    id: input-0
+    attributes:
+      label: Website URL
+      description: The project's website you want to get CORS proxy for
+      placeholder: https://mywebsite.com
+      required: true
+  - type: input
+    id: input-1
+    attributes:
+      label: Repository URL
+      description: The project repository URL
+      placeholder: https://github.com/username/project
+      required: true
+  - type: textarea
+    id: textarea-2
+    attributes:
+      label: Target domains
+      description: The domains do you want to fetch, enter multiple lines for multiple
+        domains or use asterisk (*) to fetch any domains
+      required: true
+  - type: textarea
+    id: textarea-3
+    attributes:
+      label: Notes
+      description: Any other info you want to include
