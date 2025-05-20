@@ -1,19 +1,20 @@
-# Corsfix Open Source Sponsorship
+# Free CORS Proxy for Open Source Projects
 
-## What Is Corsfix?
-[Corsfix](https://corsfix.com) is the CORS Proxy that lets you access any web resource without CORS errors, so you can focus on building great websites.
+We are providing our [CORS proxy](https://corsfix.com) for free for open source projects. This proxy is designed to help developers bypass CORS restrictions when working with APIs and web applications.
 
-## What You Get from Sponsorship?
-As a sponsored project, you get:
-- Unlimited monthly requests
-- 60 requests per minute
-- Production use for your website
+```js
+fetch("https://proxy.corsfix.com/?https://example.com");
+```
 
-## How to Add Your Project
-To add your website to the sponsorship program:
-1. Fork this repository
-2. Add your website and required domains to `index.js` following the existing format
-3. Create a pull request. Once approved, your website will be added to the proxy allowlist.
+What you are getting:
+
+- Access to the CORS proxy for your project
+- Unlimited requests, no daily or monthly limits
+- 60 requests per minute per website
+
+To add your project, please complete this form:
+[Add Project](https://github.com/corsfix/free-cors-proxy/issues/new?template=add-project.yml)
 
 ## Learn More About Corsfix
-Visit [corsfix.com](https://corsfix.com) to explore its features and see how it helps you fix CORS errors.
+
+Visit [corsfix.com](https://corsfix.com) to explore the features and see how it helps you fix CORS errors.
