@@ -8,10 +8,6 @@ body:
         Thank you for choosing Corsfix!
 
         Fill in the details and get access to our CORS proxy for your project.
-        Once added, you will get:
-        - Access to the proxy
-        - Unlimited requests
-        - 60 RPM throughput
   - type: input
     attributes:
       label: Website URL
@@ -26,12 +22,11 @@ body:
       placeholder: https://github.com/username/project
     validations:
       required: true
-  - type: textarea
+  - type: input
     attributes:
-      label: Target domains
-      description:
-        The domains you want to fetch, enter multiple lines for multiple
-        domains or insert asterisk (*) to allow any domains
+      label: Corsfix account email
+      description: The email you used for signup at Corsfix
+      placeholder: name@email.com
     validations:
       required: true
   - type: textarea

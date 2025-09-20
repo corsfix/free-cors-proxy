@@ -6,14 +6,12 @@ We are providing our [CORS proxy](https://corsfix.com) for free for open source 
 fetch("https://proxy.corsfix.com/?https://example.com");
 ```
 
-What you are getting:
-
-- Access to the CORS proxy for your project
-- Unlimited requests, no daily or monthly limits
-- 60 requests per minute per website
-
 To add your project, please complete this form:
 [Add Project](https://github.com/corsfix/free-cors-proxy/issues/new?template=add-project.yml)
+
+Or, alternatively you can email us at [rey@corsfix.com].
+
+You will get access equivalent to one of our [premium plans](https://corsfix.com/pricing) for your account.
 
 ## Learn More About Corsfix
 
