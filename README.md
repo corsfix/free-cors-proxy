@@ -9,7 +9,7 @@ fetch("https://proxy.corsfix.com/?https://example.com");
 To add your project, please complete this form:
 [Add Project](https://github.com/corsfix/free-cors-proxy/issues/new?template=add-project.yml)
 
-Or, alternatively you can email us at [rey@corsfix.com].
+Or, alternatively you can email us at rey@corsfix.com.
 
 You will get access equivalent to one of our [premium plans](https://corsfix.com/pricing) for your account.
 
